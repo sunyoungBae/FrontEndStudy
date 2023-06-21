@@ -1,0 +1,27 @@
+{
+  "name": "2_mocking_fundamentals",
+  "version": "1.0.0",
+  "description": "## 섦명",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start:monkey-patching": "node src/no-framework/monkey-patching.js",
+    "start:mock-fn": "node src/no-framework/mock-fn.js",
+    "start:spy": "node src/no-framework/spy.js",
+    "start:inline-module-mock": "node src/no-framework/inline-module-mock.js",
+    "start:external-mock-module": "node src/no-framework/external-mock-module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunyoungBae/TestingJS.git"
+  },
+  "author": "sunyoungBae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunyoungBae/TestingJS/issues"
+  },
+  "homepage": "https://github.com/sunyoungBae/TestingJS#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
